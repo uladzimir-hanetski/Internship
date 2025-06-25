@@ -1,12 +1,14 @@
 package org.example.userserv.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "users")
+@Data
 public class User {
 
     @Id

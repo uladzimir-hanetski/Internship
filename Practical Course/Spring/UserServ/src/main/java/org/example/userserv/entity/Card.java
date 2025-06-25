@@ -1,10 +1,12 @@
 package org.example.userserv.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import java.time.LocalDate;
 
 @Entity
 @Table(name = "cards")
+@Data
 public class Card {
 
     @Id
